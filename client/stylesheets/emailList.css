@@ -1,3 +1,28 @@
+.email_list {
+  display: flex;
+}
+
 .email_background {
-  width: 102%;
+  width: 100vw;
+  z-index: 0;
+}
+
+.email_text_head_1 {
+  font-size: 9vw;
+  font-style: italic;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  margin-top: 5vh;
+  margin-left: 5vh;
+}
+
+.email_text_head_2 {
+  font-size: 7vw;
+  font-style: italic;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  margin-top: 17vh;
+  margin-left: 5vh;
 }
