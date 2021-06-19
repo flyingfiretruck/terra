@@ -1,6 +1,6 @@
 .footer {
-  width: 100%;
-  position: absolute;
+  width: 102%;
+  /* position: fixed; */
   bottom: 0;
   background-color: black;
   color: white;
