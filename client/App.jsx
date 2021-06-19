@@ -5,7 +5,7 @@ import Navigation from './widgets/Navbar.jsx'
 
 const App = () => (
   <>
-    <Navigation />
+    {/* <Navigation /> */}
     <Landing />
     <Footer />
   </>
