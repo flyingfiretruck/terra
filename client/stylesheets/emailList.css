@@ -5,24 +5,39 @@
 .email_background {
   width: 100vw;
   z-index: 0;
+  position: relative;
+}
+
+.email_form {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  margin-top: 7vw;
+  margin-left: 5vw;
+  line-height: 6vw;
 }
 
 .email_text_head_1 {
   font-size: 9vw;
   font-style: italic;
-  color: white;
-  position: absolute;
-  z-index: 1;
-  margin-top: 5vh;
-  margin-left: 5vh;
 }
 
 .email_text_head_2 {
-  font-size: 7vw;
-  font-style: italic;
-  color: white;
-  position: absolute;
-  z-index: 1;
-  margin-top: 17vh;
-  margin-left: 5vh;
+  font-size: 3vw;
 }
+
+.email_text_head_3 {
+  font-size: 2vw;
+  line-height: 2vw;
+}
+
+.btn btn-custom {
+  color: black;
+  background-color: rgb(250, 255, 208);
+  border-color: rgb(250, 255, 208);
+}
+
+/* .form-check-input {
+  position: absolute;
+  margin-top: 2vw;
+} */

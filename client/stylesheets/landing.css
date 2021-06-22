@@ -10,11 +10,12 @@
 
 .intro-words {
   color:white;
-  margin-top: 1vw;
-  margin-left: 0.5em;
+  z-index: 1;
+  margin-top: 3vw;
+  margin-left: 4vw;
+  line-height: 10vw;
   font-size: 7vw;
   font-weight: bolder;
-  z-index: 1;
   position: absolute;
 }
 
@@ -39,7 +40,6 @@
 }
 
 .intro-5 {
-  margin-top: 0.3em;
   margin-left: 4em;
   color:rgb(250, 255, 208);
 }

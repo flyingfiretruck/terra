@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/flyingfiretruck/terra#readme",
   "dependencies": {
-    "bootstrap": "^5.0.1",
+    "bootstrap": "^4.6.0",
     "css-loader": "^5.2.6",
     "express": "^4.17.1",
     "react": "^17.0.2",

@@ -5,6 +5,7 @@ import './stylesheets/style.css';
 import './stylesheets/landing.css';
 import './stylesheets/footer.css';
 import './stylesheets/emailList.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
