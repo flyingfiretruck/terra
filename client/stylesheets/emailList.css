@@ -1,3 +1,7 @@
+textarea:focus, input:focus{
+  outline: none;
+}
+
 .email_list {
   display: flex;
 }
@@ -12,41 +16,36 @@
   color: white;
   position: absolute;
   z-index: 1;
-  margin-top: 7vw;
-  margin-left: 5vw;
+  margin-top: 10vw;
+  margin-left: 6vw;
   line-height: 6vw;
 }
 
 .email_text_head_1 {
-  font-size: 9vw;
-  font-style: italic;
+  font-size: 8vw;
 }
 
 .email_text_head_2 {
   font-size: 3vw;
-}
-
-.email_text_head_3 {
-  font-size: 2vw;
-  line-height: 2vw;
+  margin-left: 1vw;
+  margin-top: 1vw;
 }
 
 .email_form_input {
   display: flex;
   size: 2vw;
+  margin-left: 1vw;
+  margin-top: 5vw;
 }
 
-.email-input-button {
-  color: black;
-  background-color: white;
-  border-color: rgb(250, 255, 208);
-  height: 5vw;
+.email_input {
+  height: 5vw !important;
 }
 
-.email-input {
-  height: 5vw;
-  width: 45vw;
-  background: transparent;
-  color: white;
-  border-color: transparent;
+.email-form-button {
+  color: black !important;
+  background-color: white !important;
+  border-color: transparent !important;
+  height: 5vw !important;
+  font-size: 2vw !important;
 }
