@@ -31,13 +31,19 @@
   line-height: 2vw;
 }
 
-.btn btn-custom {
-  color: black;
-  background-color: rgb(250, 255, 208);
-  border-color: rgb(250, 255, 208);
+.email_form_input {
+  display: flex;
+  size: 2vw;
 }
 
-/* .form-check-input {
-  position: absolute;
-  margin-top: 2vw;
-} */
+.email-input-button {
+  color: black;
+  background-color: white;
+  border-color: rgb(250, 255, 208);
+  height: 5vw;
+}
+
+.email-input {
+  height: 5vw;
+  width: 45vw;
+}

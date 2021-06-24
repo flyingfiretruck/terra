@@ -3,7 +3,7 @@ import React from 'react'
 const Landing = () => (
   <div className="landing">
     <div className="intro">
-      <div className="intro-words">
+      <div className="intro-words-1">
         <div className="intro-1">Spatial</div>
         <div className="intro-2">development</div>
         <div className="intro-3">for a</div>
@@ -14,6 +14,13 @@ const Landing = () => (
         <source src="assets/video_1.mp4" type="video/mp4"/>
       </video>
     </div>
+    <span className="intro-words-2">
+      Based in Korea, we provide technical consultation globally in areas of
+      spatial planning at nation, regional and local level, land development and real
+      estate investment. We are happy to serve you the best practices from all around
+      around the world.
+    </span>
+
   </div>
 );
 

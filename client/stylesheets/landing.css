@@ -8,7 +8,7 @@
   display: flex;
 }
 
-.intro-words {
+.intro-words-1 {
   color:white;
   z-index: 1;
   margin-top: 3vw;
@@ -40,7 +40,7 @@
 }
 
 .intro-5 {
-  margin-left: 4em;
+  margin-left: 5em;
   color:rgb(250, 255, 208);
 }
 
@@ -48,4 +48,13 @@
   z-index: 0;
   position: relative;
   width: 100vw;
+}
+
+.intro-words-2 {
+  padding-top: 4vw;
+  font-size: 2.5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 4vw;
+  font-weight: initial;
 }
