@@ -46,4 +46,7 @@
 .email-input {
   height: 5vw;
   width: 45vw;
+  background: transparent;
+  color: white;
+  border-color: transparent;
 }

@@ -15,9 +15,9 @@ const Landing = () => (
       </video>
     </div>
     <span className="intro-words-2">
-      Based in Korea, we provide technical consultation globally in areas of
-      spatial planning at nation, regional and local level, land development and real
-      estate investment. We are happy to serve you the best practices from all around
+      Based in South Korea, we provide technical consultation globally in areas of
+      spatial planning, land development and real estate investment at national,
+      regional and local level. We are happy to serve you the best practices
       around the world.
     </span>
 
