@@ -4,6 +4,7 @@ import Footer from './widgets/Footer.jsx'
 import Navigation from './widgets/Navbar.jsx'
 import EmailList from './components/EmailList.jsx'
 
+
 const App = () => (
   <>
     {/* <Navigation /> */}
