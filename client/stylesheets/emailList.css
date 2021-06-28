@@ -1,5 +1,9 @@
-textarea:focus, input:focus{
+orm-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: transparent;
   outline: none;
+  box-shadow: 0 0 0 0rem rgb(0 123 255 / 25%);
 }
 
 .email_list {
@@ -29,13 +33,14 @@ textarea:focus, input:focus{
   font-size: 3vw;
   margin-left: 1vw;
   margin-top: 1vw;
+  font-weight: normal;
 }
 
 .email_form_input {
   display: flex;
   size: 2vw;
   margin-left: 1vw;
-  margin-top: 5vw;
+  margin-top: 4vw;
 }
 
 .email_input {
@@ -46,6 +51,17 @@ textarea:focus, input:focus{
   color: black !important;
   background-color: white !important;
   border-color: transparent !important;
-  height: 5vw !important;
+  height: 4vw !important;
+  width: 7vw !important;
+  font-size: 1.2vw !important;
+}
+
+.email-input {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  height: 4vw !important;
+  width: 28vw !important;
   font-size: 2vw !important;
+  border-bottom: 0.2vw solid white !important;
 }
