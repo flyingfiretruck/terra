@@ -16,6 +16,11 @@ orm-control:focus {
   position: relative;
 }
 
+.email_background a{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
 .email_form {
   color: white;
   position: absolute;
