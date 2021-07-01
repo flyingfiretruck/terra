@@ -3,7 +3,7 @@ import React from 'react'
 const Landing = () => (
   <div className="landing">
     <div className="intro">
-      <div className="intro-words-1">
+      <div className="intro-words-1 animate__animated animate__slideInRight">
         <div className="intro-1">Spatial</div>
         <div className="intro-2">development</div>
         <div className="intro-3">for a</div>
