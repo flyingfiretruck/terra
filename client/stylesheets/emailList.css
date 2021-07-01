@@ -1,4 +1,4 @@
-orm-control:focus {
+form-control:focus {
   color: #495057;
   background-color: #fff;
   border-color: transparent;
@@ -11,9 +11,10 @@ orm-control:focus {
 }
 
 .email_background {
-  width: 100vw;
   z-index: 0;
   position: relative;
+  width: 100vw;
+  min-width: 74vh;
 }
 
 .email_background a{
@@ -35,9 +36,9 @@ orm-control:focus {
 }
 
 .email_text_head_2 {
-  font-size: 3vw;
+  font-size: 1.6rem;
   margin-left: 1vw;
-  margin-top: 1vw;
+  margin-top: 2vw;
   font-weight: normal;
 }
 
@@ -45,7 +46,7 @@ orm-control:focus {
   display: flex;
   size: 2vw;
   margin-left: 1vw;
-  margin-top: 4vw;
+  margin-top: 5vw;
 }
 
 .email_input {
@@ -57,7 +58,7 @@ orm-control:focus {
   background-color: white !important;
   border-color: transparent !important;
   border-radius: 0 !important;
-  padding: 1.5vw 3vw !important;
+  padding: 0.5vh 2.5vh !important;
 }
 
 .email-input {
@@ -68,7 +69,6 @@ orm-control:focus {
   padding: 1.25vw 0.25vw 0.5vw !important;
   border-radius: 0 !important;
   border-bottom: 0.2vw solid white !important;
-  font-size: 1.2vw !important;
   box-sizing: content-box;
 }
 
