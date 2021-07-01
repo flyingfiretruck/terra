@@ -8,11 +8,7 @@ const EmailList= () => (
       <div className="email_text_head_2">Receive updates and stay in the loop.</div>
       <Form className="email_form_input">
         <Form.Group controlId="formBasicEmail">
-          {/* <Form.Label>Email address</Form.Label> */}
           <Form.Control type="email" className="email-input" placeholder="Enter email" />
-          {/* <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text> */}
         </Form.Group>
         {/* <Form.Group controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
