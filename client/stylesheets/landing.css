@@ -8,7 +8,14 @@
   display: flex;
 }
 
-.intro-words-1 {
+.intro-words-1-invisible {
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.intro-words-1-visible {
   color:white;
   z-index: 1;
   margin-top: 3vw;
